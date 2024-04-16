@@ -1,1 +1,1 @@
-{"name":"Home","path":"/","sections":[{"__resolveType":"site/sections/Header/Header.tsx","navItems":[{"children":[],"image":[],"name":"Cultura","url":"/cultura"},{"children":[],"image":[],"name":"Quem Somos","url":"/quem-somos"}]},{"__resolveType":"site/sections/Footer/Footer.tsx"}],"__resolveType":"website/pages/Page.tsx"}
+{"name":"Home","path":"/","sections":[{"__resolveType":"Header global"},{"__resolveType":"site/sections/Footer/Footer.tsx"}],"__resolveType":"website/pages/Page.tsx"}
