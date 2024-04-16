@@ -294,6 +294,75 @@
         "__resolveType": "Header global"
       },
       {
+        "__resolveType": "site/sections/Product/PartialImageGallery.tsx",
+        "title": "Culturas ",
+        "listImages": [
+          "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6918/5253bdb3-5734-4b70-b0ea-f6ba34e64fb9",
+          "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6918/49287df2-150f-45fa-95e8-162c7c9f7742",
+          "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6918/5253bdb3-5734-4b70-b0ea-f6ba34e64fb9"
+        ]
+      },
+      {
+        "__resolveType": "site/sections/Product/ProductShelf.tsx",
+        "products": {
+          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+          "props": {
+            "query": " ",
+            "sort": "price:desc",
+            "count": 8,
+            "fuzzy": "automatic"
+          }
+        }
+      },
+      {
+        "__resolveType": "site/sections/Product/Horizontal.tsx",
+        "page": {
+          "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts",
+          "slug": "camisa-polo-masculina-verde",
+          "similars": false
+        },
+        "layout": "max-w-full",
+        "animation": false
+      },
+      {
+        "__resolveType": "site/sections/Images/ImageGallery.tsx",
+        "banners": [
+          {
+            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6918/fa59bc93-5382-4708-90b3-249744352842",
+            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6918/7aeb122a-dc8d-46de-a9d5-a3ec23bfcbcb",
+            "alt": "Estrada",
+            "href": "/"
+          },
+          {
+            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6918/58ee5b39-1ed2-4e22-9430-47b7d5334bc3",
+            "alt": "Cachoeira",
+            "href": "/"
+          },
+          {
+            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6918/d50948b0-4daa-471c-9114-bba2de79254f",
+            "alt": "Cachoeira 2",
+            "href": "/"
+          },
+          {
+            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6918/a115073c-fa8f-452e-9898-137c16f58958",
+            "alt": "Horizonte",
+            "href": "/"
+          }
+        ]
+      },
+      {
+        "__resolveType": "site/sections/Product/ProductShelf.tsx",
+        "products": {
+          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+          "props": {
+            "query": " ",
+            "sort": "price:desc",
+            "count": 8,
+            "fuzzy": "automatic"
+          }
+        }
+      },
+      {
         "__resolveType": "site/sections/Footer/Footer.tsx"
       }
     ],
