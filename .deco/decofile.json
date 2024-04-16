@@ -248,19 +248,16 @@
       {
         "__resolveType": "site/sections/Content/Hero.tsx",
         "title": "<p>Conexões Culturais</p>",
-        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6918/68f5a015-c5bb-4d31-9981-9bd38410bf34",
+        "description": "Na Conexões Culturais, acreditamos no poder transformador da diversidade cultural e na importância de promover a inclusão em nossas comunidades. Nossa missão é ir além de simplesmente vender produtos; queremos criar uma plataforma interativa onde as pessoas possam se conectar, aprender e compartilhar experiências culturais significativas.",
         "placement": "left",
         "cta": [
           {
-            "variant": "Normal"
-          },
-          {
             "variant": "Normal",
             "href": "/",
-            "text": "Navegue por nossa loja e aproveite!"
+            "text": "Navegue por nossa loja e aprovete!"
           }
         ],
-        "description": "Loja"
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6918/4b7b5b37-fa29-4478-ba12-45f84670032c"
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
