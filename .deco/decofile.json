@@ -251,6 +251,9 @@
             "url": "/quem-somos"
           }
         ]
+      },
+      {
+        "__resolveType": "site/sections/Footer/Footer.tsx"
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
@@ -303,6 +306,9 @@
         "__resolveType": "site/sections/Miscellaneous/Cupom.tsx",
         "cupomCode": "Cultura10",
         "cupomDescription": "Use o cupom acima e ganhe 10% de desconto!"
+      },
+      {
+        "__resolveType": "site/sections/Footer/Footer.tsx"
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
@@ -344,6 +350,9 @@
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6918/5253bdb3-5734-4b70-b0ea-f6ba34e64fb9"
           }
         ]
+      },
+      {
+        "__resolveType": "site/sections/Footer/Footer.tsx"
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
