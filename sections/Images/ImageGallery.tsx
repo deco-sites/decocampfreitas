@@ -147,12 +147,16 @@ function Banner(
           height={190}
           media="(max-width: 767px)"
           src={srcMobile}
+          loading="lazy"
+          fetchPriority="low"
         />
         <Source
           width={640}
           height={420}
           media="(min-width: 768px)"
           src={srcDesktop || srcMobile}
+          loading="lazy"
+          fetchPriority="low"
         />
         <img
           width={640}
@@ -161,6 +165,7 @@ function Banner(
           alt={alt}
           decoding="async"
           loading="lazy"
+          fetchPriority="low"
         />
       </Picture>
     </a>
