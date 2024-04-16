@@ -45,7 +45,7 @@ function LikeButton({ productID }: LikeButtonIslandProps) {
     const totalLikesProduct = await invoke["deco-sites/decocampfreitas"].loaders
       .totalLikesProductLoader({ productID });
     quantity.value = totalLikesProduct.product;
-    toast.success("👍 Curtiu meeeeeu!", {
+    toast.success("👍 Produto curtido!", {
       position: "top-right",
       autoClose: 1000,
       hideProgressBar: false,
