@@ -197,16 +197,6 @@
   "htmx": {
     "__resolveType": "decohub/apps/htmx.ts"
   },
-  "pages-Start-15553": {
-    "name": "Home",
-    "path": "/",
-    "sections": [
-      {
-        "__resolveType": "site/sections/Footer.tsx"
-      }
-    ],
-    "__resolveType": "website/pages/Page.tsx"
-  },
   "site": {
     "seo": {
       "type": "website",
@@ -240,37 +230,5 @@
     "theme": {
       "__resolveType": "Neutral"
     }
-  },
-  "pages-Quem%20Somos-854748": {
-    "name": "Quem Somos",
-    "path": "/quem-somos",
-    "sections": [
-      {
-        "__resolveType": "site/sections/Content/Hero.tsx",
-        "title": "<p>Conexões Culturais</p>",
-        "description": "Na Conexões Culturais, acreditamos no poder transformador da diversidade cultural e na importância de promover a inclusão em nossas comunidades. Nossa missão é ir além de simplesmente vender produtos; queremos criar uma plataforma interativa onde as pessoas possam se conectar, aprender e compartilhar experiências culturais significativas.",
-        "placement": "left",
-        "cta": [
-          {
-            "variant": "Normal",
-            "href": "/",
-            "text": "Navegue por nossa loja e aprovete!"
-          }
-        ],
-        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6918/4b7b5b37-fa29-4478-ba12-45f84670032c"
-      }
-    ],
-    "__resolveType": "website/pages/Page.tsx"
-  },
-  "pages-Cultura-731753": {
-    "name": "Cultura",
-    "path": "/cultura",
-    "sections": [
-      {
-        "__resolveType": "site/sections/Content/RichText.tsx",
-        "text": "<h1>Cultura</h1>"
-      }
-    ],
-    "__resolveType": "website/pages/Page.tsx"
   }
 }
