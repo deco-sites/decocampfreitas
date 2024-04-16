@@ -197,12 +197,6 @@
   "htmx": {
     "__resolveType": "decohub/apps/htmx.ts"
   },
-  "pages-Quem%20somos-955028": {
-    "name": "Quem somos",
-    "path": "/quem-somos",
-    "sections": [],
-    "__resolveType": "website/pages/Page.tsx"
-  },
   "pages-Start-15553": {
     "name": "Home",
     "path": "/",
@@ -246,15 +240,5 @@
     "theme": {
       "__resolveType": "Neutral"
     }
-  },
-  "pages-Cultura-104456": {
-    "name": "Cultura",
-    "path": "/cultura",
-    "sections": [
-      {
-        "__resolveType": "Groovy Vibes"
-      }
-    ],
-    "__resolveType": "website/pages/Page.tsx"
   }
 }
