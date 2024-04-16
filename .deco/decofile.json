@@ -481,5 +481,75 @@
       }
     },
     "logoPosition": "center"
+  },
+  "pages-PDP-253954": {
+    "name": "PDP",
+    "path": "/:slug/p",
+    "sections": [
+      {
+        "__resolveType": "Header global"
+      },
+      {
+        "__resolveType": "site/sections/Product/ProductDetails.tsx",
+        "page": {
+          "__resolveType": "vtex/loaders/legacy/productDetailsPage.ts",
+          "slug": {
+            "__resolveType": "website/functions/requestToParam.ts",
+            "param": "slug"
+          }
+        }
+      },
+      {
+        "__resolveType": "site/sections/Product/Horizontal.tsx",
+        "page": {
+          "variants": [
+            {
+              "rule": {
+                "utm": "abril",
+                "__resolveType": "site/matchers/utm.ts"
+              },
+              "value": {
+                "slug": "camisa-feminina-rosa",
+                "__resolveType": "vtex/loaders/legacy/productDetailsPage.ts"
+              }
+            },
+            {
+              "rule": {
+                "__resolveType": "website/matchers/always.ts"
+              },
+              "value": {
+                "__resolveType": "vtex/loaders/legacy/productDetailsPage.ts",
+                "slug": {
+                  "__resolveType": "website/functions/requestToParam.ts",
+                  "param": "slug"
+                }
+              }
+            }
+          ],
+          "__resolveType": "site/flags/multivariate.ts"
+        },
+        "layout": "max-w-full",
+        "products": {
+          "slug": {
+            "param": "slug",
+            "__resolveType": "website/functions/requestToParam.ts"
+          },
+          "count": 1,
+          "crossSelling": "whosawalsosaw",
+          "__resolveType": "vtex/loaders/legacy/relatedProductsLoader.ts",
+          "hideUnavailableItems": false
+        },
+        "animation": false
+      },
+      {
+        "__resolveType": "site/sections/Product/ProductShelf.tsx",
+        "products": {
+          "__resolveType": "vtex/loaders/legacy/relatedProductsLoader.ts",
+          "crossSelling": "whosawalsosaw",
+          "count": 8
+        }
+      }
+    ],
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
