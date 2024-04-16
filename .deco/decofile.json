@@ -197,6 +197,12 @@
   "htmx": {
     "__resolveType": "decohub/apps/htmx.ts"
   },
+  "pages-Quem%20somos-955028": {
+    "name": "Quem somos",
+    "path": "/quem-somos",
+    "sections": [],
+    "__resolveType": "website/pages/Page.tsx"
+  },
   "pages-Start-15553": {
     "name": "Home",
     "path": "/",
@@ -216,12 +222,12 @@
       "type": "website",
       "jsonLDs": [],
       "noIndexing": false,
-      "description": "Improve your page performance with deco.cx",
-      "titleTemplate": "%s | deco.cx",
-      "descriptionTemplate": "%s | Deco.cx",
-      "title": "Start",
-      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8/d8489214-aa22-44ce-a9aa-7c1b9f8e5177",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8/07fd7c67-11d2-43a2-a322-6ffd0fbcdee1"
+      "descriptionTemplate": "%s",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6918/45dd7e49-0bbe-4a14-b533-ac067b08f5cd",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8/07fd7c67-11d2-43a2-a322-6ffd0fbcdee1",
+      "title": "Conexões Culturais",
+      "titleTemplate": "%s | Celebrando a Diversidade e a Inclusão através da Cultura",
+      "description": "Bem-vindo à Conexões Culturais, sua porta de entrada para uma jornada emocionante através das culturas do Brasil e do mundo. Explore nossa ampla seleção de produtos e experiências que celebram a diversidade cultural, desde ingredientes autênticos e obras de arte únicas até moda e acessórios inspirados em tradições globais. Além de oferecer produtos exclusivos, também fornecemos workshops interativos e eventos que conectam pessoas através de experiências culturais significativas. Junte-se a nós enquanto promovemos a inclusão e celebramos a riqueza das diferentes culturas ao redor do globo."
     },
     "global": [
       {
@@ -244,5 +250,15 @@
     "theme": {
       "__resolveType": "Neutral"
     }
+  },
+  "pages-Cultura-104456": {
+    "name": "Cultura",
+    "path": "/cultura",
+    "sections": [
+      {
+        "__resolveType": "Groovy Vibes"
+      }
+    ],
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
